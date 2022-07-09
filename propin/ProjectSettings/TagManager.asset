@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Foreground
+    uniqueID: 3407291257
+    locked: 0
+  - name: Colliders
+    uniqueID: 3848110657
+    locked: 0
