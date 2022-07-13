@@ -213,7 +213,7 @@ GameObject:
   - component: {fileID: 1817857424707863545}
   - component: {fileID: 81457046300273297}
   - component: {fileID: 7001313202525284437}
-  - component: {fileID: 6360035974238758209}
+  - component: {fileID: 1863860043}
   m_Layer: 0
   m_Name: Player_Isometric_Witch
   m_TagString: Untagged
@@ -267,8 +267,8 @@ SortingGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3339481645408498929}
   m_Enabled: 1
-  m_SortingLayerID: 2130146985
-  m_SortingLayer: 0
+  m_SortingLayerID: -887676039
+  m_SortingLayer: 1
   m_SortingOrder: 0
 --- !u!114 &2079923369
 MonoBehaviour:
@@ -282,7 +282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1237dee4ba13f504ebfd932c1695c3ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 1
+  MoveSpeed: 2.5
 --- !u!114 &1817857424707863545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -327,7 +327,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &6360035974238758209
+--- !u!114 &1863860043
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
