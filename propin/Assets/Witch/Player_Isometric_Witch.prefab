@@ -210,6 +210,8 @@ GameObject:
   - component: {fileID: 3339481645408498930}
   - component: {fileID: 2079923368}
   - component: {fileID: 2079923369}
+  - component: {fileID: 1817857424707863545}
+  - component: {fileID: 81457046300273297}
   m_Layer: 0
   m_Name: Player_Isometric_Witch
   m_TagString: Untagged
@@ -279,3 +281,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 1
+--- !u!114 &1817857424707863545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3339481645408498929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0102ba224497f04194b52a3cfc8636c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Max: 100
+--- !u!114 &81457046300273297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3339481645408498929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 946df09ff6486204882a06f5d2c87467, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemPanelPrefab: {fileID: 8748934288564037395, guid: 1358c39bba747624fba3fd0307e6d1fc, type: 3}
+  ItemContainerPrefab: {fileID: 6330044808903196804, guid: a557418dd42c17b458b6248a95b8c126, type: 3}
+  InventoryPanel: {fileID: 0}

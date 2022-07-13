@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.Tilemaps;
 
 public class IsometricPlayerMovementController : MonoBehaviour
@@ -25,11 +26,12 @@ public class IsometricPlayerMovementController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (isMouseHold)
+        //                 Filters out clicks on ui
+        if (isMouseHold && !EventSystem.current.IsPointerOverGameObject())
         {
             SetNewPosition();
         }
-        transform.position = Vector3.MoveTowards(transform.position, newPosition, MoveSpeed * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, newPosition, MoveSpeed * Time.fixedDeltaTime);
         Vector2 movement = newPosition - transform.position;
         isoRenderer.SetDirection(movement);
         //Vector2 currentPos = rbody.position;
