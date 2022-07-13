@@ -61,6 +61,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.TryGetComponent<Interactive>(out var interactiveObject))
         {
             InteractiveObjectsInRange.Add(interactiveObject);
+            interactiveObject.Approach(gameObject);
         }
     }
 
@@ -74,6 +75,7 @@ public class PlayerController : MonoBehaviour
                 if (obj.GetInstanceID() == interactive.GetInstanceID())
                 {
                     InteractiveObjectsInRange.RemoveAt(i);
+                    obj.Leave(gameObject);
                     break;
                 }
             }

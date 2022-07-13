@@ -14,6 +14,8 @@ public class Interactive : MonoBehaviour
 {
     public string Prompt;
     public InteractionEvent Interaction;
+    public InteractionEvent OnApproach;
+    public InteractionEvent OnLeave;
     public ItemMetaData ItemRequired;
     public void Interact(GameObject sender)
     {
@@ -25,5 +27,15 @@ public class Interactive : MonoBehaviour
             }
         }
         Interaction?.Invoke(sender);
+    }
+
+    public void Approach(GameObject sender)
+    {
+        OnApproach?.Invoke(sender);
+    }
+
+    public void Leave(GameObject sender)
+    {
+        OnLeave?.Invoke(sender);
     }
 }
