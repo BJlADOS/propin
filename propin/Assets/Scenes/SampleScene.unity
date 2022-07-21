@@ -22679,7 +22679,7 @@ Tilemap:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -17, y: -41, z: 0}
   m_Size: {x: 51, y: 86, z: 1}
-  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileAnchor: {x: 0, y: 0, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
     e00: 1
@@ -27878,7 +27878,7 @@ Tilemap:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -12, y: -37, z: 0}
   m_Size: {x: 47, y: 83, z: 1}
-  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileAnchor: {x: 0, y: 0, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
     e00: 1
@@ -28002,7 +28002,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAAAoIeySYBeIhQIAAEUFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1zokAQ/SvWnDcWiIDubZcYk0MSK2YrFy4j08iUMEPNDFGT8r9vzwDCuifxvf54/brhm3Cha8iMVGvF2bNkQH5OyJOWFRjFMwuSH5Mh6hFOdC/Fln9BH/zBmSlsEHUxb9Rwibhv0/o6v8S+tMHhfBoHYWS5RvBcqmrF9pBIbTSyOS01IKWksUUEQt8TcsKfwF9Ml+E8miF7xv+z2MOnL3xaepMLPmYgDKhRAobPorCPn0+9wJ8votDv0oJpHC/iWRit7ryFq9CIrKRVDczONu7clYh8FyZw6i7CMpksS647rcSca2dJQmvd4MAYwDhFC5w0bxoiUADfF8bOME5/zXMNFrVzKXq+5wq9bOuS37I1uKL60Cr7pGXjJDhNbcnn/9i7ls6VrB77rr5nO5iCZ4c3es6oNiPjx/D9ILxd15GWB7or4aMA8SLXSjaCIWlUY1MbDbP74e91sKSA7DDgrdQbsKkHv73O7n6/doaLm/2UlLzaOR/nLbAtpfN7aYNB4WaeULA7Hd2VQNSq+KPhne7HN9YRD1xpg1Q3pbDydrJRNpSsnGd2msYkUglwcCe6BkFLc95gGXO7wBtu1PaGeaD2peqad1z/rtykOHiI97wbaiOP12XpQh6fQRevjSm5gEG0JV7Qp0QK0d7X2JM+bduonGajtH3D2b+nReJFwKjP6G4W7KLlPLjLYj+mWcwiz6eM0YC42+MC56TlphXa2YNbE0NxgXdmK9pvzWStaO1unSl6XPOvSo4FcpHLbaYAxGtb4qocFHbB15KtGEeHtmAMF27h5DslpcwOwNJrz9SNujoZRdOhSkpq/imNRVKSuA9KSix8PeaNgk8OR9u8L3Yhl79QSwMEFAAACAgAACgh7J6PLYZtAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tJK5hXFKomFKYpKRcZKZpYmxbrK5oXlisnmKmYFhYkpKorFSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAACgh7JJgF4iFAgAARQUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAACgh7J6PLYZtAAAAeAAAAAkAJAAAAAAAAAAAAAAA0gIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAACKAwAAAAA=
+    dataString: UEsDBBQAAAgIAAAoIewPhsGnhAIAAEYFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VMFy2jAQ/RVG54axMdjQW+sQkkMSJrSTiy/CWmMNQvJIcoBk+PeuZBu7dHrC7Nt9+/bt2l+ES1NBbpVeac6eFQPyfUSejDqA1Tx3QfJt1Gc9wonulNzwT+iS3zmzpUuiPueNWq4wHrqyjueH3AmXPJuOk2gWO6yWvFD6sGQ7SJWxBtGCCgMIaWUdicTQ14ic8CcK5+PFbBpPED3j/0kS4NMnPi2C0QUfc5AW9KAA0yfxrMufjoMonM7jWdiWReMkmSeTWby8C+aeoZa5oIcKmJtt2LmliEOfJnHqNsMhuRKCm1YrsefKW5LSytQ4MCYwTtECLy0YOzkl8F1p3QzD8teiMOCibi5Nz/dco5cNL/mpGoMP1OwbZR9U1F6C19RQPv+D3jVwodXhsesaBq6DLXm+f6PnnBo7MH4Yvu+FN+s6UrGnWwHvJcgXtdKqlgxBq2tXWhuY3Pd/r4OlJeT7Pt5IvQnWVe930Nrd7dfNcPGzn1LBD1vv47QJbITyfi9cMmjczBMK9qdjWgqMOhW/Dfyiu+GNtcAD18Yi1E4pnbytqrVLJUvvmZumtqnSEvSQoQJJhT2vkcfebvAG+3/VA3VvVdu9xbqX5abEh/v8ILiB1up43ZYp1fEZTPlaW8El9FY74AWNSpWUzYENR+rKNrUuaD4o29Wc/X1bJJlHjIaMbifRNl5Mo7s8CROaJywOQsoYjYg/Pi5xTirWjdDWHlyb7MklHppjdB+b0UrTyh870/S44p8HNRTIZaE2uQaQrw3FVTlo7ILvJVsyjg5twFou/cbJV0aEyvfAsmvPzI+6PFlNs54lIxX/UNZFMpL6L0pGXPh6zWsNHxyOrnlHdiGXP1BLAwQUAAAICAAAKCHsno8thm0AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNdRUEovSizIKAaKGII4pZkpIHa0krmFcUqiYUpikpFxkpmlibFusrmheWKyeYqZgWFiSkqisVIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAAKCHsD4bBp4QCAABGBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAKCHsno8thm0AAAB4AAAACQAkAAAAAAAAAAAAAADRAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAIkDAAAAAA==
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -28353,6 +28353,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 61871075883309732, guid: fd5bf66994ceadc4a83fd34a6c3abfc5, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 61871075883309732, guid: fd5bf66994ceadc4a83fd34a6c3abfc5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 61871075883309732, guid: fd5bf66994ceadc4a83fd34a6c3abfc5, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -28431,7 +28439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 5
-  radius: 0.5
+  radius: 0.1
   height: 2
   canMove: 1
   maxSpeed: 1
@@ -28454,7 +28462,7 @@ MonoBehaviour:
   maxAcceleration: -2.5
   rotationSpeed: 360
   slowdownDistance: 0.6
-  pickNextWaypointDist: 2
+  pickNextWaypointDist: 0.5
   endReachedDistance: 0.2
   alwaysDrawGizmos: 0
   slowWhenNotFacingTarget: 1
@@ -33546,7 +33554,7 @@ Tilemap:
   m_Color: {r: 1, g: 0.0141509175, b: 0.9605689, a: 1}
   m_Origin: {x: -13, y: -38, z: 0}
   m_Size: {x: 47, y: 83, z: 1}
-  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileAnchor: {x: 0, y: 0, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
     e00: 1
