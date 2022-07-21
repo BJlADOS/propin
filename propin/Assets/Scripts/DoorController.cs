@@ -10,9 +10,16 @@ public class DoorController : MonoBehaviour
     public Tile ClosedTile;
     public bool Closed;
     public PolygonCollider2D PhysicalCollider;
+    public AudioSource DoorSound;
     private bool _closed;
+
     private void Awake()
     {
+        _closed = Closed;
+        if (_closed)
+            Close();
+        else
+            Open();
     }
 
     private void Update()
@@ -21,13 +28,10 @@ public class DoorController : MonoBehaviour
         {
             _closed = Closed;
             if (_closed)
-            {
                 Close();
-            }
             else
-            {
                 Open();
-            }
+            DoorSound.Play();
         }
     }
 

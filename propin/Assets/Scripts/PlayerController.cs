@@ -6,12 +6,23 @@ public class PlayerController : MonoBehaviour
 {
     //public float PullForce;
     //public float MoveSpeed;
+    public AudioSource AttackSound;
+    public AudioSource FinalAttackSound;
     public TextMeshProUGUI InteractionPrompt;
+    public float MeleeRadius;
+    public float MeleeDamage;
+    public float MeleeCooldown;
     Rigidbody2D Body;
     Vector2 InputDelta;
     List<Interactive> InteractiveObjectsInRange = new List<Interactive>();
     Inventory Inventory;
     Health Health;
+    float MeleeCooldownTimeLeft = 0;
+    public static PlayerController Instance
+    {
+        get;
+        private set;
+    }
     public void TestDamage()
     {
         Health.TakeDamage(25);
@@ -20,6 +31,31 @@ public class PlayerController : MonoBehaviour
     private void OnDeath()
     {
         Destroy(gameObject);
+    }
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
+    public void Attack(GameObject enemy)
+    {
+        if ((enemy.transform.position - transform.position).magnitude <= MeleeRadius)
+        {
+            if (MeleeCooldownTimeLeft <= 0)
+            {
+
+                if (enemy.GetComponent<Health>().TakeDamage(MeleeDamage) <= 0)
+                {
+                    FinalAttackSound.Play();
+                }
+                else
+                {
+                    AttackSound.Play();
+                }
+                MeleeCooldownTimeLeft = MeleeCooldown;
+            }
+        }
     }
 
     void Start()
@@ -48,6 +84,14 @@ public class PlayerController : MonoBehaviour
         else
         {
             InteractionPrompt.text = "";
+        }
+        if (MeleeCooldownTimeLeft > 0)
+        {
+            MeleeCooldownTimeLeft -= Time.deltaTime;
+        }
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            GetComponent<Ability>().Use();
         }
     }
 

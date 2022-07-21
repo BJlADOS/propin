@@ -15,6 +15,8 @@ public class HealthBar : MonoBehaviour
 
     void Update()
     {
+        if (Source == null)
+            return;
         var healthPercentage = Source.Current / Source.Max;
         Bar.transform.localScale = new Vector3(FullWidth * healthPercentage, Bar.transform.localScale.y, Bar.transform.transform.localScale.z);
     }
