@@ -161,7 +161,6 @@ namespace Pathfinding {
 
 		/// <summary>Helper which calculates points along the current path</summary>
 		protected PathInterpolator interpolator = new PathInterpolator();
-
 		#region IAstarAI implementation
 
 		/// <summary>\copydoc Pathfinding::IAstarAI::Teleport</summary>
@@ -236,7 +235,6 @@ namespace Pathfinding {
 		bool IAstarAI.canMove { get { return canMove; } set { canMove = value; } }
 
 		#endregion
-
 		/// <summary>\copydoc Pathfinding::IAstarAI::GetRemainingPath</summary>
 		public void GetRemainingPath (List<Vector3> buffer, out bool stale) {
 			buffer.Clear();
@@ -398,7 +396,8 @@ namespace Pathfinding {
 
 			// Set how much the agent wants to move during this frame
 			var delta2D = lastDeltaPosition = CalculateDeltaToMoveThisFrame(movementPlane.ToPlane(currentPosition), distanceToEnd, deltaTime);
-			nextPosition = currentPosition + movementPlane.ToWorld(delta2D, verticalVelocity * lastDeltaTime);
+			nextPosition = new Vector2((currentPosition + movementPlane.ToWorld(delta2D, verticalVelocity * lastDeltaTime)).x, (currentPosition + movementPlane.ToWorld(delta2D, verticalVelocity * lastDeltaTime)).y);
+
 			CalculateNextRotation(slowdown, out nextRotation);
 		}
 

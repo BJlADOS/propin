@@ -28259,6 +28259,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6240174142936307830, guid: 63a1487f57c0f7340b7440da8a90e8cf, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240174142936307830, guid: 63a1487f57c0f7340b7440da8a90e8cf, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].x
+      value: -0.13137054
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240174142936307830, guid: 63a1487f57c0f7340b7440da8a90e8cf, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].y
+      value: 0.31372833
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240174142936307830, guid: 63a1487f57c0f7340b7440da8a90e8cf, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].x
+      value: 0.02353096
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240174142936307830, guid: 63a1487f57c0f7340b7440da8a90e8cf, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].y
+      value: 0.23627853
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240174142936307830, guid: 63a1487f57c0f7340b7440da8a90e8cf, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].x
+      value: 0.390193
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240174142936307830, guid: 63a1487f57c0f7340b7440da8a90e8cf, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].y
+      value: 0.42614746
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240174142936307830, guid: 63a1487f57c0f7340b7440da8a90e8cf, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[5].x
+      value: 0.51568604
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240174142936307830, guid: 63a1487f57c0f7340b7440da8a90e8cf, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[5].y
+      value: 0.47908497
+      objectReference: {fileID: 0}
     - target: {fileID: 6240174143602789504, guid: 63a1487f57c0f7340b7440da8a90e8cf, type: 3}
       propertyPath: TileMap
       value: 
