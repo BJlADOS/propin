@@ -94,7 +94,7 @@ public class Inventory : MonoBehaviour
         container.Item = item.MetaData;
         container.Amount = 1;
         container.transform.position = transform.position;
-        container.transform.localScale = new Vector3(0.5f, 0.5f, 1f);
+        //container.transform.localScale = new Vector3(0.5f, 0.5f, 1f);
     }
 
     private void OnDestroy()

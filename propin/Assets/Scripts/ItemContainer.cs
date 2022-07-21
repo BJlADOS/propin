@@ -10,7 +10,7 @@ public class ItemContainer : MonoBehaviour
     private void Start()
     {
         Sprite = GetComponent<SpriteRenderer>();
-        Sprite.sprite = Item.Icon;
+        Sprite.sprite = Item.GroundSprite;
     }
 
     public void PickUp(GameObject sender)

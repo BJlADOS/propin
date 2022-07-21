@@ -16,4 +16,5 @@ MonoBehaviour:
   ID: 3
   Name: Red key
   Weight: 0.1
-  Icon: {fileID: 21300000, guid: 90387bae1b754654fbf7130648b4bab9, type: 3}
+  Icon: {fileID: -1946931950, guid: fd5351cce5f67f7489fe036c57d549d4, type: 3}
+  GroundSprite: {fileID: -1946931950, guid: fd5351cce5f67f7489fe036c57d549d4, type: 3}

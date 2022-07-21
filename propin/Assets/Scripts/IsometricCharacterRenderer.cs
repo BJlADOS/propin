@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class IsometricCharacterRenderer : MonoBehaviour
 {
-
+    public float StopDistance;
     public static readonly string[] staticDirections = { "Static N", "Static NW", "Static W", "Static SW", "Static S", "Static SE", "Static E", "Static NE" };
     public static readonly string[] runDirections = {"Run N", "Run NW", "Run W", "Run SW", "Run S", "Run SE", "Run E", "Run NE"};
 
@@ -25,7 +25,7 @@ public class IsometricCharacterRenderer : MonoBehaviour
         string[] directionArray = null;
 
         //measure the magnitude of the input.
-        if (direction.magnitude < .01f)
+        if (direction.magnitude < StopDistance)
         {
             //if we are basically standing still, we'll use the Static states
             //we won't be able to calculate a direction if the user isn't pressing one, anyway!

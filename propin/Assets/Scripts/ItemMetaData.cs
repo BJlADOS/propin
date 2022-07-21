@@ -17,6 +17,7 @@ public class ItemMetaData : ScriptableObject
     public string Name;
     public float Weight;
     public Sprite Icon;
+    public Sprite GroundSprite;
     public virtual Item CreateItem(int amount)
     {
         return new Item(this, amount);
