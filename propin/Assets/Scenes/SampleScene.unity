@@ -23215,7 +23215,11 @@ PrefabInstance:
     - target: {fileID: 4084099427017190011, guid: a557418dd42c17b458b6248a95b8c126, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1515089210, guid: fd5351cce5f67f7489fe036c57d549d4, type: 3}
+      objectReference: {fileID: 0}
+    - target: {fileID: 4084099427017190011, guid: a557418dd42c17b458b6248a95b8c126, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6330044808903196804, guid: a557418dd42c17b458b6248a95b8c126, type: 3}
       propertyPath: m_Name
       value: ItemContainer
@@ -23230,11 +23234,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7287755358347119093, guid: a557418dd42c17b458b6248a95b8c126, type: 3}
       propertyPath: m_Size.x
-      value: 0.25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7287755358347119093, guid: a557418dd42c17b458b6248a95b8c126, type: 3}
       propertyPath: m_Size.y
-      value: 0.25
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a557418dd42c17b458b6248a95b8c126, type: 3}
@@ -29287,11 +29291,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 482310927381016745, guid: a557418dd42c17b458b6248a95b8c126, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 482310927381016745, guid: a557418dd42c17b458b6248a95b8c126, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 482310927381016745, guid: a557418dd42c17b458b6248a95b8c126, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34708,6 +34712,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1863860043, guid: 497ff05ad9848114080d747387318fdf, type: 3}
+      propertyPath: MeleeRadius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1863860043, guid: 497ff05ad9848114080d747387318fdf, type: 3}
       propertyPath: InteractionPrompt
       value: 

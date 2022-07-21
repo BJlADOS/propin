@@ -17,4 +17,4 @@ MonoBehaviour:
   Name: Pistol
   Weight: 2
   Icon: {fileID: 21300000, guid: 4e52a923d1fb3ed47a9e03f8551afa78, type: 3}
-  GroundSprite: {fileID: 21300000, guid: 4e52a923d1fb3ed47a9e03f8551afa78, type: 3}
+  GroundSprite: {fileID: 21300000, guid: 3bbb9de02e4f15140bb39b801dd318ff, type: 3}

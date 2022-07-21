@@ -17,6 +17,6 @@ MonoBehaviour:
   Name: Medkit
   Weight: 0.5
   Icon: {fileID: 21300000, guid: 029f4403b76db2348a5cb54337826991, type: 3}
-  GroundSprite: {fileID: 21300000, guid: 029f4403b76db2348a5cb54337826991, type: 3}
+  GroundSprite: {fileID: 21300000, guid: 89354f6b807b201408dbaa3ab4c208ee, type: 3}
   ConsumableType: 0
   RestoreAmount: 50
